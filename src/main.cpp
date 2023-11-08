@@ -1,22 +1,23 @@
 /*
- * Author:
- * Date:
- * Name:
+ * Author:20221500484
+ * Date:11/8/2023
+ * Name:Muxtorov Abdulaziz
  */
 
 #include <iostream>
+#include "task_3.h"
+#include "task_4.h"
 #include "task_1.h"
+
 
 int main() {
     std::cout << "Task 1" << std::endl;
-    // call for task 1
-    std::cout << "Task 2" << std::endl;
-    // call for task 2
+    task_1()
     std::cout << "Task 3" << std::endl;
-    // call for task 3
+    task_3()
     std::cout << "Task 4" << std::endl;
-    // call for task 4
-    std::cout << "Task 5" << std::endl;
-    // call for task 5
+    task_4()
+    
     return 0;
 }
+
